@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<TITLE>Animasi Transisi CSS3</title>
+	<meta name="viewport" content="widht-device-width, initial-scale=1.0">
+	
+	<style type="text/css">
+		.oval{
+			width: 60%;
+			height: 100px;
+			background: blue;
+			border: 2px solid #212121;
+			animation: mymove 2s infinite;
+			border-radius: 50%;
+			
+			-webkit-transition: width 1s ease-in-out;
+			-o-transition: width 1s ease-in-out;
+			-moz-transition: width 1s ease-in-out;
+			transition: width 1s ease-in-out;
+		}
+		
+		@keyframes mymove{50% {transform: rotate(360deg);}}
+		
+		/*landscape*/
+		@media (orientation:landsccape){
+			.oval{
+				width: 100%;
+			}
+		}
+	</style>
+	
+</head>
+<body>
+	<h3>Transisi CSS3</h3>
+	
+	<div class="oval"></div>
+	<p>
+		ubah orientasi ke landscape/potrait dan sebaliknya untuk melihat efek transisi
+	</p>
+</body>
+</html>

@@ -1,0 +1,77 @@
+
+#header{
+	background: #dcd2ea;
+	margin: 0px 0 20px 0;
+}
+#pics{
+	padding: 0px 0px 0px 20px;
+}
+#teksh1 h1{
+	font-size: 50px;
+	text-align: right;
+	padding: 120px 40px 0 0;
+	color: black;
+}
+#teksh2 h2{
+	font-size: 20px;
+	text-align: right;
+	padding: 0 40px 30px 0;
+	color: black;
+}
+#sidea {
+	width: 30%;
+	height: 100%;
+	background: #dcd2ea;
+	padding: 100px 50px 540px 0;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#sidea ul li {
+	font-size: 35px;
+	color: black;
+}
+#sideb {
+	width: 130%;
+	height: 200%;
+	background: #F8F8FF;
+	padding: 100px 40px 150px 0;
+	 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#sideb ul li {
+	font-size: 45px;
+	color: black;
+}
+#box1 {
+	padding: 0px 15px 0px 15px;
+	background: linear-gradient(to right, #2f1b6b 0%, #2f1b6b 80%, #dcd2ea 50%, #dcd2ea 100%);
+	color: white;
+}
+#box2 {
+	padding: 0px 15px 0px 15px;
+	background: linear-gradient(to right, #2f1b6b 0%, #2f1b6b 75%, #dcd2ea 50%, #dcd2ea 100%);
+	color: white;
+}
+#box3 {
+	padding: 0px 15px 0px 15px;
+	background: linear-gradient(to right, #2f1b6b 0%, #2f1b6b 75%, #dcd2ea 50%, #dcd2ea 100%);
+	color: white;
+}
+#box4 {
+	padding: 0px 15px 0px 15px;
+	background: linear-gradient(to right, #2f1b6b 0%, #2f1b6b 85%, #dcd2ea 50%, #dcd2ea 100%);
+	color: white;
+}
+#box5 {
+	padding: 0px 15px 0px 15px;
+	background: linear-gradient(to right, #2f1b6b 0%, #2f1b6b 65%, #dcd2ea 50%, #dcd2ea 100%);
+	color: white;
+}
+#post{
+	margin: 0 20px 0 20px;
+	text-align: justify;
+}

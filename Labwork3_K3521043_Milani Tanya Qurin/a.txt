@@ -1,0 +1,7 @@
+<form name="kalkulator">
+Isian 1 <input type="text" name="satu"><br />
+Isian 2 <input type="text" name="dua"><br />
+Hasil <input type "text" name="hasil" disabled="true">
+<input type="button" value=" + " onClick="tambah()">
+<input type="button" value="Kosongkan" onClick="kosong()">
+</form>

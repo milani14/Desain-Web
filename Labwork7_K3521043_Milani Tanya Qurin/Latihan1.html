@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan1</title>
+	</head>
+	<body>
+	<script language="JavaScript" type="text/javascript">
+
+	<!--
+	function hitung(){
+
+	var formName = document.calculator;
+	var x=eval(formName.x.value);
+	var y=eval(formName.y.value);
+	var pil= formName.option.value;
+		if (pil == "jumlah") {
+		var z = x + y;
+		}
+		else if (pil == "kurang") {
+		var z = x - y;
+		 } 
+		else if (pil == "kali") {
+		var z = x * y;
+		 }
+		else if (pil == "bagi") {
+		var z = x / y;
+		 }
+	 formName.hasil.value = z;
+	 formName.x.value = "";
+	 formName.y.value = "";
+	}
+	function resetForm(){
+	document.form1.reset();
+	}
+
+	//-->
+	</script>
+		<center><h1> CALCULATE:</h1></center>
+		<center><table border="1"></center>
+		<form name="calculator" action="#">
+			<tr>
+				<th colspan="2"><b>Kalkulater Sederhana</th><b>
+			</tr>
+			<tr>
+				<td><label for="x">Bil1:</label>
+				<br><td><input type="text" name="x"></br></td>
+			</tr>
+			<tr>
+				<td><label for="y">Bil2:</label>
+				<br><td><input type="text" name="y"></br></td>
+			</tr>
+			<tr>
+				<td><label for="hasil">Hasil:</label>
+				<br><td><input type="text" name="hasil" disabled="true"></br></td>
+			</tr>
+				<td colspan="2" align="center"><p>Hitung <select name="option"></p>
+					 <option value="jumlah"> +</option>
+					 <option value="kurang"> -</option>
+					 <option value="kali"> *</option>
+					 <option value="bagi">/</option>
+					<input type="button" value="=" onClick="hitung()" />
+					<input type="button" value="CLEAR" onClick="resetForm()" />
+					
+				</td>
+
+		</form>
